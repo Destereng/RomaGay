@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("RomaGay Hub", "DarkTheme")
+local Window = Library.CreateLib("RomaGay Hub", "Ocean")
 local Tab = Window:NewTab("Functions")
 local Section = Tab:NewSection("Roma")
 Section:NewButton("Make Roma gay", "ButtonInfo", function()
