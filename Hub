@@ -10,8 +10,8 @@ Section:NewButton("Make Roma gay", "ButtonInfo", function()
     Wait(1)
     print("Roma is now gay!!!")
 end)
-Section:NewSlider("Fucking speed", "SliderInfo", 160, 16, function(s)
-    While wait() do
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-    end
+Section:NewSlider("How many stepfathers will Roma have?", "SliderInfo", 10, 0, function(s)
+    Section:NewButton("Do stepfathers", "ButtonInfo", function ()
+        print(s)
+    end)
 end)
